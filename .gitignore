@@ -1,0 +1,47 @@
+# Diretório do ambiente virtual (se estiver dentro do projeto)
+venv/
+env/
+
+# Arquivos de configuração sensíveis
+.env
+*.env
+config/settings/local.py
+
+# Cache e arquivos temporários
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3  # Se estiver usando SQLite localmente
+
+# Logs
+logs/
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Pastas de dependências do Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Migrations que não foram criadas ainda
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Arquivos de build e deploy
+build/
+dist/
+*.egg-info/
+*.tar.gz
+*.zip
+
+# Node.js (se estiver usando frontend com React/Vue dentro do projeto)
+node_modules/
+npm-debug.log
+
+# IDEs e editores
+.vscode/
+.idea/
